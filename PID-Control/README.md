@@ -10,6 +10,7 @@ One more thing. The speed limit has been increased from 30 mph to 100 mph. Get r
 
 ### Reflection on Hyper-Parameter Tuning:
 
+
 ### Impact of Parameters
 The parameters whose values are needed to be determined in order to calculate the steering angle are Kp, Ki and Kd.
 
