@@ -11,6 +11,7 @@ The simulator utilized in this Project is found at: https://github.com/udacity/s
 
 ### The Model Description
 
+
 The State maintained as part of the Model Predictive Controller are the X coordinate, Y coordinate, Heading of the car(Orientation), Magnitude of Velocity, Cross Track Error, Error in Heading with all of them with respect to the Vehicles local coordinate system.
 
 The Model aims to find the actuator control inputs i.e. the steering angle and the throttle for the next time-step based on the input Reference Trajectory that has been fed from the simulator. In order to find the next time-step, an Optimizer Ipopt(https://projects.coin-or.org/Ipopt) is utilized to find the actuator control inputs for 'N' time-steps and then utilize the values obtained for the next time-step only  in order to move the vehicle forward in time.
